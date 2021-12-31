@@ -1,0 +1,23 @@
+{
+   "namespace": "yellow_taxi.avro",
+   "type": "record",
+   "name": "User",
+   "fields": [
+    {"name": "VendorID", "type": "int"},
+    {"name": "tpep_pickup_datetime", "type": "timestamp"},
+    {"name": "tpep_dropoff_datetime", "type": "timestamp"},
+    {"name": "Trip_distance", "type": "double"},
+    {"name": "PULocationID", "type": "int"},
+    {"name": "DOLocationID", "type": "int"},
+    {"name": "RateCodeID", "type": "int"},
+    {"name": "Payment_type", "type": "int"},
+    {"name": "Fare_amount", "type": "double"},
+    {"name": "Extra", "type": "double"},
+    {"name": "MTA_tax", "type": "double"},
+    {"name": "Improvement_surcharge", "type": "double"},
+    {"name": "Tip_amount", "type": "double"},
+    {"name": "Tolls_amount", "type": "double"},
+    {"name": "Total_amount", "type": "double"}
+    ]
+ }
+
