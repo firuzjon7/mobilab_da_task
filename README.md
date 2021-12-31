@@ -95,6 +95,7 @@ df['df_day_of_the_week'] = [g for n, g in df.set_index('timestamp').groupby(pd.T
 
 
 **Note**
-I understand that my source codes are not optimized well. Due to short time I tried to write them that they could function in a way that I wanted (hardcoding). Indeed, I will keep improving my code and possibly train better practices. As for now, I belive that during a personal discussion, I can explain more in detail all solutions that were described above. 
+The practices that I used to perform those task are optimal for individuals that do not have access into cloud services such as GCP, AWS and Azure. If I had an access to GCP Cloud Dataflow, I would imlement my pipeline on cloud environment quicker and without any tool configurations, which took most of my time finding out solutions to errors on Apache Beam, Saprk and Docker environments. 
+I understand that my source codes are not optimized well. Due to short time I tried to write them that they could function in a way that I wanted (hardcoding). Indeed, I will keep improving my code and possibly train better practices. As for now, I belive that during a personal discussion, I can explain my idea/approach on solving the tasks. 
 
  
